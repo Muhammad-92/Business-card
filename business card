@@ -1,0 +1,37 @@
+<body>
+   <div class="card border-blue">
+     <img
+      class="img border-blue"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpUFVD_r_lj-sCGcTaBm-rRr3APz8D9v5vpw&s"
+      alt="This is image">
+    <div class="data border-blue"> <h3>Nauman</h3>
+    <!-- <button class="btn">click me</button>-->
+     <p>Student</p>
+     <h4>Punjab Pakistan</h4>
+  </div>
+</body>
+body{
+  margin:20px;
+  font-family: verdana;
+  .img{
+    width: 150px;
+  }
+  .btn{
+    width:200px;
+  }
+  .card{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+  }  }
+  .data{
+    text-align: center;
+  }  
+  
+}
